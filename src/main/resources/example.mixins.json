@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.snowstep115.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MinecraftServerMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
